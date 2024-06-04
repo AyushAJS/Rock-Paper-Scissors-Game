@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wdth,wght@0,75..100,400..700;1,75..100,400..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 13vw;
+}
+#img1 #img2 #img3{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+    border: 5px soild rgba(0, 0, 0, 0.963);
+}
+#img1 #img2 #img3:hover{
+    /* border-color: 2px solid black; */
+    cursor: pointer;
+}
+#img1 img{
+    height: 11vw;
+    width: 11vw;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#img1 img:hover{
+    border-color: 6px solid black;
+    cursor: pointer;
+    height: 11.5vw;
+    width: 11.5vw;
+    filter:drop-shadow(5px 5px 5px rgba(96, 96, 96, 0))
+}
+#img2 img{
+    height: 11vw;
+    width: 11vw;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#img2 img:hover{
+            border-color: 2px solid black;
+            cursor: pointer;
+            height: 11.5vw;
+            width: 11.5vw;
+    filter:drop-shadow(5px 5px 5px rgba(96, 96, 96, 0.39));
+}
+#img3 img{
+    height: 11vw;
+    width: 11vw;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid transparent;
+}
+#img3 img:hover{
+    cursor: pointer;
+    height: 11.5vw;
+    width: 11.5vw;
+    filter:drop-shadow(5px 5px 5px rgba(96, 96, 96, 0.39));
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 15vw;
+    margin-left: 2.5vw;
+}
+.first{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    font-family: "Cabin", sans-serif;
+}
+.second{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    font-family: "Cabin", sans-serif;
+}
+.first .second{
+        position: absolute;
+}
+.first h3{
+    font-weight: 900;
+    font-size: 2vw;
+    filter:drop-shadow(11px 11px 11px rgba(128, 128, 128, 0.877)); 
+}
+.second h3{
+    font-weight: 900;
+    font-size: 2vw;
+    filter:drop-shadow(11px 11px 11px rgba(128, 128, 128, 0.877)); 
+}
+.first h2{
+    padding-left: 0.9vw;
+    font-weight: 900;
+    font-size: 2vw;
+    filter:drop-shadow(11px 11px 11px rgba(128, 128, 128, 0.877)); 
+}
+.second h2{
+    padding-left: 3.3vw;
+    font-weight: 900;
+    font-size: 2vw;
+    filter:drop-shadow(11px 11px 11px rgba(128, 128, 128, 0.877)); 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15vw;
+}
+.btn button{
+    font-weight: 500;
+    font-size: 1.2vw;
+    margin-right: 1vw;
+    border: 2px solid transparent;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgba(62, 62, 62, 0.379);
+}
+.btn button:hover{
+    cursor: pointer;
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px; */
+    /* font-size: 1.3vw; */
+    padding-bottom: 7px;
+    filter:drop-shadow(5px 5px 5px rgba(128, 128, 128, 0.877)); 
+    color: white;
+}
